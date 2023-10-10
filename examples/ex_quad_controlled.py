@@ -112,7 +112,7 @@ if __name__ == "__main__":
         # Drawing the Quad with the given transformation
         glUniformMatrix4fv(glGetUniformLocation(pipeline.shaderProgram, "transform"), 1, GL_TRUE, np.matmul(
                 tr.translate(controller.x, controller.y, 0.0),
-                tr.rotationZ(controller.theta)
+                tr.rotationY(controller.theta)
             ))
         pipeline.drawCall(gpuQuad)
 

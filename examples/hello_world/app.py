@@ -23,10 +23,10 @@ if __name__ == "__main__":
     )
 
     vertex_colors = np.array(
-        [1.0, 204 / 255.0, 1.0,  # inf izq
-         1.0, 204 / 255.0, 1.0,  # if der
-         204 / 255.0, 1.0, 1.0,  # sup der
-         204 / 255.0, 1.0, 1.0,  # sup izq
+        [1.0, 204.0, 1.0,  # inf izq
+         1.0, 204.0, 1.0,  # if der
+         4 / 255.0, 1.0, 1.0,  # sup der
+         4 / 255.0, 1.0, 1.0,  # sup izq
         ],
         dtype=np.float32,
     )
